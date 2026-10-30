@@ -1,0 +1,8 @@
+OpenHPSC project logo
+
+File: openhpsc-logo.png
+Source: OpenHPSC(1).png supplied by the project initiator.
+The supplied image is included unchanged. Web layout preserves the complete image.
+Excluded from the documentation's CC BY 4.0 and the build code's MIT license.
+No additional rights to the logo or underlying artwork are granted here.
+Contact project maintainers regarding branding use.

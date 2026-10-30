@@ -1,0 +1,30 @@
+/* SPDX-License-Identifier: MIT */
+html[data-theme="light"] {
+  --pst-color-primary: #466397;
+  --pst-color-link: #395585;
+  --pst-color-on-background: #f6f7fa;
+}
+html[data-theme="dark"] {
+  --pst-color-primary: #a9bee8;
+  --pst-color-link: #b4c8ed;
+}
+:root { --pst-font-family-base: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.bd-main .bd-content .bd-article-container { max-width: 58rem; }
+.bd-article h1 { font-weight: 750; letter-spacing: -.035em; }
+.bd-article h2 { font-weight: 650; letter-spacing: -.02em; margin-top: 2.2rem; }
+.bd-article p, .bd-article li { line-height: 1.8; }
+.bd-sidebar-primary { background: var(--pst-color-on-background); }
+.bd-sidebar-primary .navbar-brand { padding: .6rem .3rem .8rem; }
+.bd-sidebar-primary .navbar-brand img {
+  width: 100%; height: 196px; max-height: none;
+  object-fit: contain; object-position: center;
+  background: white; border-radius: 8px;
+}
+.bd-sidebar-primary .navbar-brand .logo__title { font-size: .95rem; margin-top: .5rem; }
+.bd-article table { font-size: .92rem; }
+.bd-article th { font-weight: 650; }
+.bd-article .admonition { border-radius: 6px; box-shadow: none; }
+.bd-article a { text-underline-offset: .18em; }
+.bd-article pre { border-radius: 6px; }
+.bd-article > section > p:first-of-type strong { color: var(--pst-color-primary); }
+@media (max-width: 575px) { .bd-article h1 { font-size: 2.15rem; } }

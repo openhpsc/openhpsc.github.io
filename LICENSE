@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC-BY-4.0
+
+Copyright 2026 OpenHPSC contributors
+
+Unless a file states otherwise, original Markdown documentation is licensed under
+the Creative Commons Attribution 4.0 International license.
+
+License summary: https://creativecommons.org/licenses/by/4.0/
+Complete legal terms: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Original build configuration, CSS, CI workflows, and scripts are covered by the
+MIT license in LICENSE-CODE. Third-party material retains its own license.
+
+The user-supplied logo docs/_static/openhpsc-logo.png is excluded from both
+licenses. No additional logo or underlying-artwork reuse rights are granted.
