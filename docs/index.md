@@ -55,8 +55,13 @@ Start by reviewing a requirement, reproducing an upstream example, or proposing
 an experiment. Each contribution should leave the next person with something
 clearer, testable, or easier to reproduce.
 
-[Contribute on GitHub](https://github.com/openhpsc/openhpsc.github.io) ·
-[Open a project discussion as an issue](https://github.com/openhpsc/openhpsc.github.io/issues)
+- **[Start a discussion](https://github.com/openhpsc/community/discussions/new/choose)** to introduce yourself, ask a question, or explore an idea.
+- **[Open a community issue](https://github.com/openhpsc/community/issues/new)** for a concrete research question, requirement, or experiment.
+- **[Follow the R&D project](https://github.com/orgs/openhpsc/projects/2)** to see the work being tracked.
+
+The [community repository](https://github.com/openhpsc/community) coordinates project work.
+For website errors or broken documentation, use the
+[documentation issue tracker](https://github.com/openhpsc/openhpsc.github.io/issues).
 
 ```{toctree}
 :hidden:

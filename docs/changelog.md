@@ -2,6 +2,14 @@
 
 # Documentation changelog
 
+## 0.2.2
+
+- Link Community Discussions, community issues, and the R&D project from the home page and navigation.
+- Explain how discussions become actionable issues and tracked research work.
+- Keep website reports in the documentation repository.
+- Link the maintained community roadmap instead of duplicating milestone status.
+- Document where research notes and architecture decisions belong.
+
 ## 0.2.1
 
 - Replace the appearance dropdown with explicit Light, Dark, and System controls.

@@ -18,18 +18,38 @@ experimental work. A small verified improvement is a valuable contribution.
 | Radiation effects | Review the evidence ladder or propose device-specific characterization questions |
 | Research | Compare approaches using primary sources and identify reproducibility gaps |
 
+## Where to participate
+
+| What you want to do | Where to go |
+| --- | --- |
+| Introduce yourself, ask a question, or explore an idea | [Community Discussions](https://github.com/openhpsc/community/discussions) |
+| Propose a scoped research task, requirement, or experiment | [Community issues](https://github.com/openhpsc/community/issues) |
+| Follow research and development work | [R&D project](https://github.com/orgs/openhpsc/projects/2) |
+| Correct a website page or report a documentation bug | [Documentation issues](https://github.com/openhpsc/openhpsc.github.io/issues) |
+| Propose an edit to this manual | [Documentation pull requests](https://github.com/openhpsc/openhpsc.github.io/pulls) |
+
 ## Contribution workflow
 
-1. Find an issue or propose a bounded problem in the
-   [issue tracker](https://github.com/openhpsc/openhpsc.github.io/issues).
-2. State the intended result and link affected requirements or roadmap milestones.
-3. For a small correction, open a pull request directly. Discuss larger technical changes first.
-4. Include the source revisions, commands, and results relevant to your change.
-5. Run the strict documentation build in [Getting started](getting-started.md).
-6. Respond to review and keep the change focused.
+1. Browse existing discussions and issues before opening a new one.
+2. If the idea needs exploration, [start a discussion](https://github.com/openhpsc/community/discussions/new/choose).
+3. When there is a concrete task, [open a community issue](https://github.com/openhpsc/community/issues/new).
+   Describe the problem, scope, expected output, and acceptance criteria.
+   Link the originating discussion and affected requirements, such as `OH-REQ-001`.
+4. Link the issue to the relevant roadmap milestone. Maintainers can add it to
+   the [R&D project](https://github.com/orgs/openhpsc/projects/2) and update its status as work progresses.
+   Opening an issue does not automatically add it to the board.
+5. Submit changes to the repository that owns the work, linking the issue and
+   relevant source revisions, commands, and results. A small documentation
+   correction can go directly to a pull request in this repository.
+6. For documentation changes, run the strict build and site check in
+   [Getting started](getting-started.md). Respond to review and keep changes focused.
+7. Record the outcome and supporting evidence in the issue before closing it.
+   Update the board when the work changes status.
 
-The repository includes templates for documentation issues, requirements,
-experiments, and pull requests.
+Use issues for actionable work and Discussions for conversations. If a discussion
+becomes a task, link them in both directions rather than copying the conversation.
+The R&D project tracks issues; technical findings belong in linked research notes,
+design decisions, or implementation repositories.
 
 ## Documentation expectations
 
@@ -51,6 +71,9 @@ If an experiment fails, report what you observed. A reproducible limitation can
 be more useful than a success claim that cannot be checked.
 
 ## Licensing
+
+The [community repository](https://github.com/openhpsc/community) uses MIT for its original
+content. This documentation repository keeps its existing licenses.
 
 Original documentation is CC BY 4.0; original build configuration and tooling
 are MIT unless identified otherwise. Imported RTL and dependencies retain their

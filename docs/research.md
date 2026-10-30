@@ -40,8 +40,13 @@ and acceleration scope becomes concrete.
 
 ## Proposing a study
 
-Use the experiment issue template and define an answerable question, baseline,
-method, expected artifacts, and limitations. State what can be done with existing
+Explore an early idea in [Community Discussions](https://github.com/openhpsc/community/discussions). For a scoped
+study, [open a community issue](https://github.com/openhpsc/community/issues/new) and define an answerable
+question, baseline, method, expected artifacts, and acceptance criteria.
+Link relevant requirements and the originating discussion. Maintainers can add
+accepted work to the [R&D project](https://github.com/orgs/openhpsc/projects/2). Record reproducible findings
+in the [community research directory](https://github.com/openhpsc/community/tree/main/research),
+linking the issue and any implementation artifacts. Include limitations. State what can be done with existing
 hardware and which parts require external facilities or funding.
 
 Research contributions should retain negative findings and reproduction

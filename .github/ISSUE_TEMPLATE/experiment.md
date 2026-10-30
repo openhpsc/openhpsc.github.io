@@ -1,22 +1,10 @@
 ---
 name: Experiment proposal
-about: Propose a bounded, reproducible hardware or software study
+about: Please open this project proposal in the community repository
 ---
 
-## Question
-What uncertainty will this experiment resolve?
+Please open this proposal at https://github.com/openhpsc/community/issues/new so project work stays together.
+For early ideas and questions, use https://github.com/openhpsc/community/discussions.
+Follow tracked work at https://github.com/orgs/openhpsc/projects/2.
 
-## Baseline and configuration
-Upstream source, pinned revision, configuration, workload, and expected outputs.
-
-## Method
-Fault model, instrumentation, sampling, seeds, outcome rules, and comparison.
-
-## Resources
-Tools, host environment, hardware, facilities, and any external dependencies.
-
-## Deliverables and acceptance criteria
-What will be published and what constitutes completion?
-
-## Limitations and references
-What cannot be concluded from this experiment?
+This repository's tracker is for documentation and website improvements.

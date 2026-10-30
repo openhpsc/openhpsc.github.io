@@ -43,6 +43,9 @@ An accepted requirement is not automatically an implemented or verified one.
 
 ## Proposing a requirement
 
-Use the requirement issue template. State the problem, proposed wording,
+[Open a community issue](https://github.com/openhpsc/community/issues/new). State the problem, proposed wording,
 rationale, verification method, dependencies, and scope. Prefer a single
 observable obligation over several unrelated obligations in one sentence.
+Link any originating [discussion](https://github.com/openhpsc/community/discussions) and identify the
+requirement being added or revised. The [R&D project](https://github.com/orgs/openhpsc/projects/2)
+tracks follow-up work; the requirement text remains in this manual.

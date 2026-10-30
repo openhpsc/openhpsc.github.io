@@ -1,19 +1,10 @@
 ---
 name: Requirement proposal
-about: Propose or revise a testable project requirement
+about: Please open this project proposal in the community repository
 ---
 
-## Problem and scope
-What needs to be established and for which configuration?
+Please open this proposal at https://github.com/openhpsc/community/issues/new so project work stays together.
+For early ideas and questions, use https://github.com/openhpsc/community/discussions.
+Follow tracked work at https://github.com/orgs/openhpsc/projects/2.
 
-## Proposed requirement
-State one observable obligation. Link an existing OH-REQ identifier if revising one.
-
-## Rationale
-Why is it needed?
-
-## Verification method
-How would a reviewer establish that it is met?
-
-## Dependencies and alternatives
-Identify assumptions, related requirements, and alternatives.
+This repository's tracker is for documentation and website improvements.

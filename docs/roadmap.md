@@ -2,30 +2,23 @@
 
 # Roadmap
 
-OpenHPSC advances through reviewable milestones. The sequence is proposed;
-calendar commitments will follow available contributors and resources.
+OpenHPSC advances through reviewable milestones. The
+[community roadmap](https://github.com/openhpsc/community/blob/main/ROADMAP.md)
+is the maintained milestone plan. The [R&D project](https://github.com/orgs/openhpsc/projects/2) tracks
+individual work items and their progress. This page explains how to follow and
+contribute to that work.
 
-## Milestones and exit criteria
+## Follow the work
 
-| Milestone | Deliverable | Exit criterion |
-| --- | --- | --- |
-| **M0 · Shared foundation** | Mission, documentation, draft requirements, contribution process | Site builds cleanly; scope and a first experiment can be reviewed |
-| **M1 · Baseline selection** | Candidate comparison and an architecture decision | A pinned configuration runs the chosen workload in simulation |
-| **M2 · Resilience experiment** | Defined fault model and baseline/protected comparison | Replayable records and documented outcome analysis |
-| **M3 · FPGA reference** | One board implementation and bring-up instructions | Functional run, timing status, utilization, and independent reproduction |
-| **M4 · RTEMS integration** | Minimum BSP and a control-oriented application | Startup, clock, interrupts, console, and selected tests pass |
-| **M5 · Mixed-criticality evaluation** | Application/control integration with workload measurements | Shared-resource behaviour and recovery limits are documented |
-| **M6 · Radiation characterization** | Device-specific plan and physical test campaign | Methods, device conditions, results, and limits are published |
-| **M7 · ASIC feasibility** | Process, IP, test, packaging, and funding study | A reviewed case for implementation and verification exists |
+1. Read the community roadmap for milestone scope and completion criteria.
+2. Browse the R&D project for tracked issues and current work.
+3. Open a linked issue to inspect its question, expected output, and evidence.
+4. Use [Community Discussions](https://github.com/openhpsc/community/discussions) to explore an idea before it
+   becomes a scoped task.
 
-Later milestones can change as earlier results reveal better directions. M7 is
-an evaluation gate, not a commitment to fabricate silicon.
-
-## Current status
-
-**M0 is in progress.** This documentation release supplies the initial foundation;
-community review and publication are the next steps. No milestone beyond M0 is
-claimed complete by this release.
+Milestone status is maintained in the community repository rather than duplicated
+here. Project-board status describes task progress; a completed task supports a
+milestone only when its stated acceptance criteria are met.
 
 ## Immediate contributions
 
@@ -34,9 +27,19 @@ claimed complete by this release.
 - Reproduce one candidate's upstream simulation and record the exact revision and environment.
 - Review dependency licenses and identify missing public implementation artifacts.
 
-## What will guide scope
+[Open a community issue](https://github.com/openhpsc/community/issues/new) for one bounded contribution.
+Include its expected output, completion criteria, and relevant roadmap milestone.
+Maintainers can add it to the R&D project; automatic issue intake is not assumed.
 
-A larger core count or accelerator is useful only when a workload and measurements
-justify it. Early releases prioritize repeatability, observable behaviour, and a
-clear path from requirements to tests. Performance ambitions remain part of the
-project, with targets grounded in evidence as the platform matures.
+## Longer-term direction
+
+The proposed sequence begins with project definition, a reproducible functional
+baseline, and one measured protection experiment. FPGA implementation, RTEMS
+integration, mixed-criticality evaluation, and physical radiation characterization
+can follow as evidence and resources allow. ASIC feasibility remains a separate
+evaluation, with no commitment to fabricate silicon.
+
+A larger core count or accelerator needs a workload and measurements to justify
+it. Early work prioritizes repeatability, observable behaviour, and traceability
+from requirements to tests. Calendar commitments depend on contributors and
+resources. See the community roadmap for the current plan.

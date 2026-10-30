@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: MIT
+blank_issues_enabled: false
+contact_links:
+  - name: Community discussions
+    url: https://github.com/openhpsc/community/discussions/new/choose
+    about: Ask questions, introduce yourself, or explore an idea.
+  - name: Research, requirements, and experiments
+    url: https://github.com/openhpsc/community/issues/new
+    about: Open actionable project work in the community repository.
+  - name: R&D project
+    url: https://github.com/orgs/openhpsc/projects/2
+    about: Follow tracked research and development issues.

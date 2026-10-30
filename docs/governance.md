@@ -14,15 +14,20 @@ board is claimed by this documentation.
 ## Decisions
 
 Small corrections can be proposed directly. Changes to architecture, interfaces,
-licenses, or release criteria should first be discussed in a public issue.
-Summarize the outcome in an architecture decision record (ADR), preserving the
-reasoning as the implementation evolves.
+licenses, or release criteria should first be explored in
+[Community Discussions](https://github.com/openhpsc/community/discussions). Turn agreed follow-up work into
+[community issues](https://github.com/openhpsc/community/issues) and link the originating discussion.
+Track scoped tasks in the [R&D project](https://github.com/orgs/openhpsc/projects/2).
+
+Summarize significant decisions in an architecture decision record (ADR) in the
+[community repository](https://github.com/openhpsc/community/tree/main/adrs), preserving the reasoning
+as the implementation evolves. Link the discussion, issue, and relevant evidence.
 
 Use the proposed decision template:
 
 ```markdown
 # ADR-0001: <decision title>
-Status: proposed | accepted | superseded
+Status: proposed | accepted | rejected | superseded
 Date: YYYY-MM-DD
 
 ## Context

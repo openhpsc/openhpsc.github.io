@@ -13,6 +13,17 @@ or SiFive.
 Built with **Sphinx + MyST Markdown + Sphinx Book Theme**. The manual-oriented
 structure is inspired by the RTEMS Documentation Project; the text is original.
 
+## Join the project
+
+- [Community Discussions](https://github.com/openhpsc/community/discussions): introductions, questions, and ideas.
+- [Community issues](https://github.com/openhpsc/community/issues): scoped research, requirements, and experiments.
+- [R&D project](https://github.com/orgs/openhpsc/projects/2): track research and development work.
+- [Community roadmap](https://github.com/openhpsc/community/blob/main/ROADMAP.md): milestone plan.
+
+Use [this repository's issues](https://github.com/openhpsc/openhpsc.github.io/issues)
+for documentation and website problems. See [CONTRIBUTING.md](CONTRIBUTING.md)
+for the workflow.
+
 ## First deployment
 
 1. Create `openhpsc/openhpsc.github.io` as a public repository on GitHub.

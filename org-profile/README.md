@@ -16,7 +16,9 @@ fault-injection methods, and documentation are welcome.
 
 - [Read the documentation](https://openhpsc.github.io/)
 - [Explore the source](https://github.com/openhpsc/openhpsc.github.io)
-- [Propose a contribution](https://github.com/openhpsc/openhpsc.github.io/issues)
+- [Join the discussions](https://github.com/openhpsc/community/discussions)
+- [Open a community issue](https://github.com/openhpsc/community/issues)
+- [Follow the R&D project](https://github.com/orgs/openhpsc/projects/2)
 
 Status: definition phase. OpenHPSC is independent of NASA, JPL, Microchip, and
 SiFive; no qualified hardware or radiation-test results are currently claimed.

@@ -5,7 +5,7 @@ project = "OpenHPSC"
 author = "OpenHPSC contributors"
 copyright = f"{datetime.now().year}, OpenHPSC contributors"
 version = "0.2"
-release = "0.2.1"
+release = "0.2.2"
 
 extensions = ["myst_parser", "sphinx.ext.mathjax", "sphinx.ext.autosectionlabel", "sphinx_copybutton"]
 autosectionlabel_prefix_document = True
@@ -39,7 +39,12 @@ html_theme_options = {
     "show_toc_level": 2,
     "navigation_with_keys": False,
     "logo": {"text": "Documentation"},
-    "icon_links": [{"name": "GitHub organization", "url": "https://github.com/openhpsc", "icon": "fa-brands fa-github"}],
+    "icon_links": [
+        {"name": "Community discussions", "url": "https://github.com/openhpsc/community/discussions", "icon": "fa-solid fa-comments"},
+        {"name": "Community issues", "url": "https://github.com/openhpsc/community/issues", "icon": "fa-solid fa-circle-exclamation"},
+        {"name": "R&D project", "url": "https://github.com/orgs/openhpsc/projects/2", "icon": "fa-solid fa-table-columns"},
+        {"name": "GitHub organization", "url": "https://github.com/openhpsc", "icon": "fa-brands fa-github"},
+    ],
     "extra_footer": "Independent community initiative · Documentation v0.2",
 }
 html_context = {"default_mode": "light"}
