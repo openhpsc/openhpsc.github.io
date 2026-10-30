@@ -30,10 +30,10 @@ engineering effort.
 
 ## Explore the project
 
-- **[Read the mission](introduction.md)** — the problem, purpose, and scope.
-- **[Study the architecture](architecture.md)** — how application processing and dependable control could fit together.
-- **[Review the first demonstrator](demonstrator.md)** — a bounded starting point with explicit acceptance criteria.
-- **[Find a contribution](contributing.md)** — concrete ways to help with hardware, software, research, or documentation.
+- **[Read the mission](introduction.md)** the problem, purpose, and scope.
+- **[Study the architecture](architecture.md)** how application processing and dependable control could fit together.
+- **[Review the first demonstrator](demonstrator.md)** a bounded starting point with explicit acceptance criteria.
+- **[Find a contribution](contributing.md)** concrete ways to help with hardware, software, research, or documentation.
 
 ## Where we are today
 
