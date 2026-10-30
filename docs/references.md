@@ -7,28 +7,24 @@ endorsement, compatibility, or permission to reuse material beyond its license.
 
 ## Space computing and radiation assurance
 
-- [NASA HPSC project](https://www.nasa.gov/game-changing-development-projects/high-performance-spaceflight-computing-hpsc/)
-  background on the NASA/Microchip programme.
-- [Microchip PIC64-HPSC](https://www.microchip.com/en-us/products/microprocessors/64-bit-mpus/pic64-hpsc)
-  commercial product reference.
-- [NASA: Avionics Radiation Hardness Assurance](https://www.nasa.gov/reference/jsc-radiation/)
-  introduction to radiation effects and assurance.
-- [ECSS-Q-ST-60-15C Rev.1, 20 March 2025](https://ecss.nl/standard/ecss-q-st-60-15c-rev-1-radiation-hardness-assurance-20-march-2025/)
-  radiation hardness assurance requirements.
+- [NASA HPSC project](https://www.nasa.gov/game-changing-development-projects/high-performance-spaceflight-computing-hpsc/): background on the NASA/Microchip programme.
+- [Microchip PIC64-HPSC](https://www.microchip.com/en-us/products/microprocessors/64-bit-mpus/pic64-hpsc): commercial product reference.
+- [NASA: Avionics Radiation Hardness Assurance](https://www.nasa.gov/reference/jsc-radiation/): introduction to radiation effects and assurance.
+- [ECSS-Q-ST-60-15C Rev.1, 20 March 2025](https://ecss.nl/standard/ecss-q-st-60-15c-rev-1-radiation-hardness-assurance-20-march-2025/): radiation hardness assurance requirements.
 
 ## Open hardware candidates
 
-- [Carfield](https://github.com/pulp-platform/carfield) heterogeneous
+- [Carfield](https://github.com/pulp-platform/carfield): heterogeneous
   mixed-criticality research platform.
-- [Cheshire](https://github.com/pulp-platform/cheshire) Linux-capable host SoC.
-- [PULP Safety Island](https://github.com/pulp-platform/safety_island) CV32RT
+- [Cheshire](https://github.com/pulp-platform/cheshire): Linux-capable host SoC.
+- [PULP Safety Island](https://github.com/pulp-platform/safety_island): CV32RT
   subsystem with triple-core lockstep.
-- [CVA6](https://github.com/openhwfoundation/cva6) configurable RISC-V core.
+- [CVA6](https://github.com/openhwfoundation/cva6): configurable RISC-V core.
 - [Ibex](https://github.com/lowRISC/ibex) and its
   [security documentation](https://ibex-core.readthedocs.io/en/latest/03_reference/security.html).
-- [Ara](https://github.com/pulp-platform/ara) RISC-V vector coprocessor.
-- [HARV](https://github.com/xarc/harv) fault-tolerant RV32I research processor.
-- [NOEL-V](https://www.gaisler.com/products/noel-v) useful comparison;
+- [Ara](https://github.com/pulp-platform/ara): RISC-V vector coprocessor.
+- [HARV](https://github.com/xarc/harv): fault-tolerant RV32I research processor.
+- [NOEL-V](https://www.gaisler.com/products/noel-v): useful comparison;
   fault tolerance is excluded from its open-source version.
 
 ## Experimental research

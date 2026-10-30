@@ -16,7 +16,7 @@ html[data-theme="dark"] {
 .bd-sidebar-primary { background: var(--pst-color-on-background); }
 .bd-sidebar-primary .navbar-brand { padding: .6rem .3rem .8rem; }
 .bd-sidebar-primary .navbar-brand img {
-  width: 100%; height: 196px; max-height: none;
+  width: 100%; height: 150px; max-height: none;
   object-fit: contain; object-position: center;
   background: white; border-radius: 8px;
 }
@@ -28,3 +28,45 @@ html[data-theme="dark"] {
 .bd-article pre { border-radius: 6px; }
 .bd-article > section > p:first-of-type strong { color: var(--pst-color-primary); }
 @media (max-width: 575px) { .bd-article h1 { font-size: 2.15rem; } }
+
+/* Explicit appearance controls retain the theme's preference storage. */
+.oh-theme-picker {
+  display: inline-flex; align-items: center; gap: 2px; padding: 3px;
+  border: 1px solid var(--pst-color-border); border-radius: 7px;
+  background: var(--pst-color-on-background); white-space: nowrap;
+}
+.oh-theme-picker button {
+  border: 0; border-radius: 4px; padding: .3rem .55rem;
+  background: transparent; color: var(--pst-color-text-base);
+  font: inherit; font-size: .82rem; cursor: pointer;
+}
+.oh-theme-picker button.active {
+  color: var(--pst-color-background); background: var(--pst-color-primary);
+  font-weight: 650;
+}
+.oh-theme-picker button:hover:not(.active) { background: var(--pst-color-surface); }
+.oh-theme-picker button:focus-visible, a:focus-visible {
+  outline: 3px solid var(--pst-color-primary); outline-offset: 3px;
+}
+html[data-theme="dark"] {
+  --pst-color-background: #10151e;
+  --pst-color-on-background: #1a2230;
+  --pst-color-surface: #253044;
+  --pst-color-border: #40516c;
+  --pst-color-text-base: #e4e9f2;
+  --pst-color-text-muted: #bcc7da;
+}
+html[data-theme="dark"] .article-header-buttons .btn,
+html[data-theme="dark"] .article-header-buttons .nav-link {
+  color: var(--pst-color-text-base);
+}
+.bd-sidebar-primary .navbar-brand { margin-bottom: .2rem; }
+.bd-sidebar-primary .navbar-brand .logo__title { font-size: .88rem; }
+.bd-article .highlight { position: relative; }
+.bd-article .copybtn { border-radius: 5px; }
+@media print {
+  .oh-theme-picker, .copybtn { display: none !important; }
+}
+@media (max-width: 575px) {
+  .oh-theme-picker button { padding: .25rem .4rem; font-size: .76rem; }
+}

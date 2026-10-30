@@ -1,0 +1,5 @@
+{# SPDX-License-Identifier: MIT #}
+{% extends "!layout.html" %}
+{% block htmltitle %}
+<title>{% if pagename == "index" %}OpenHPSC Documentation{% else %}{{ title|striptags|e }} | OpenHPSC{% endif %}</title>
+{% endblock %}

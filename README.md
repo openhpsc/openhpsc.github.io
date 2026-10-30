@@ -83,3 +83,11 @@ mission, draft requirements, reference architecture, first-demonstrator acceptan
 criteria, verification methods, research priorities, governance, and a gated roadmap.
 The supplied logo is excluded from the documentation/code licenses; see
 `docs/_static/LOGO-NOTICE.txt`. No hardware results are fabricated or implied.
+
+## Documentation interface update (0.2.1)
+
+Includes explicit Light/Dark/System controls with saved preference, improved
+dark-mode contrast, command-copy buttons, a home navigation link, documentation
+help, and a changelog. Browser titles use a vertical bar instead of long dashes.
+Run `python scripts/check_site.py _build/html` after building. See `UPDATE.md`
+for applying this package to an existing checkout.

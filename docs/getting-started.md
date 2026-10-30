@@ -36,8 +36,9 @@ Pages live in `docs/` and use MyST Markdown. Add a new page to a `toctree` in
 `docs/index.md` so it appears in the navigation. Rebuild after changes.
 
 Configuration is in `docs/conf.py`; shared styling is in
-`docs/_static/custom.css`. The default theme supplies search, a page outline,
-light/dark modes, and responsive navigation.
+`docs/_static/custom.css`. The site supplies search, a page outline, explicit Light/Dark/System controls,
+command-copy buttons, and responsive navigation. See [Documentation help](troubleshooting.md)
+for navigation, appearance, and publishing troubleshooting.
 
 ## Publish with GitHub Pages
 
@@ -56,6 +57,9 @@ The included workflow checks pull requests and deploys successful builds from
 ```bash
 # Rebuild every page and fail on warnings.
 python -m sphinx -E -a -n -W --keep-going -b html docs _build/html
+
+# Check browser titles, local links, anchors, and generated assets.
+python scripts/check_site.py _build/html
 
 # Optional: check external links. Network restrictions can cause false failures.
 python -m sphinx -b linkcheck docs _build/linkcheck
